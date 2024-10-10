@@ -19,8 +19,8 @@ public class Bookstore {
         return books;
     }
 
-//    public void buyBooks(Client  client, Book book) {
-//        System.out.println("Client" + client.getName() + " си купи " + book.getTitle());
-//        client.getBoughtBooks().add(book);
-//    }
+    public void buyBooks(com.company.Client client, Book book) {
+        System.out.println("Client" + client.getName() + " си купи " + book.getTitle());
+        client.getBoughtBooks().add(book);
+    }
 }
